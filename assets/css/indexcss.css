@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #dad3d3;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    background-color: #c1bdbd;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+}
+.container {
+    display: flex;
+    max-width: 1550px;
+    margin: 20px;
+}
+.main-content {
+    flex: 1;
+    background: rgb(179, 171, 171);
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.sidebar {
+    flex: 1;
+    background: #d2c4c4;
+    padding: 20px;
+    border-radius: 5px;
+}
+.advertisement{
+    flex: 1;
+    padding: 20px;
+    padding-top: 0;
+    padding-left: 35px;
+    background-color: rgb(222, 202, 202);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.featured-post, .recent-posts, .sidebar {
+    margin-bottom: 20px;
+}
+.featured-post h2, .recent-posts h2, .sidebar h2 {
+    margin-top: 0;
+}
+.recent-posts ul {
+    list-style-type: none;
+    padding: 0;
+}
+.recent-posts li {
+    margin-bottom: 10px;
+}
+.recent-posts a {
+    text-decoration: none;
+    color: #333;
+}
+.recent-posts a:hover {
+    text-decoration: underline;
+}
+.login-signup {
+    text-align: center;
+    margin-top: 20px;
+}
+.login-signup a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+}
+.login-signup a:hover {
+    text-decoration: underline;
+}
+.ads img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.login-signup{
+    padding: 10px;
+    margin:0;
+    background-color: rgb(231, 224, 224);
+}
+
+abbr{
+    text-decoration: none;
+}
+
+.login-signup a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+
+footer {
+    background-color: #c3b9b9;
+    padding: 10px 0;
+    text-align: center;
+}
+  
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+  
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+  
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.welcome{
+    color: black;
+    text-align: center;
+}
+.welcome p{
+    font-size: 14px;
+    margin-left: 320px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 60px;
+}
+.welcome h2{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+hr{
+    margin: 20px;
+}
+.overview{
+    display: flex;
+    max-width: 1550px;
+    margin: 30px;
+}
+.inside-a{
+    flex: 1;
+    align-items: center;
+}
+.inside-b{
+    flex: 1;
+    align-items: center;
+}
+.inside-c{
+    flex: 1;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-item {
+    color: white;
+    font-size: 24px;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-item:hover {
+    color: #ddd;
+}
+
+.nav-item i {
+    display: block;
+    text-align: center;
+}
